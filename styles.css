@@ -1,0 +1,122 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #00796b;
+    position: fixed;
+   width: 97rem;
+  }
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .navbar .nav-links {
+    list-style: none;
+  }
+  .navbar .nav-links li {
+    display: inline;
+    margin-left: 1.5rem;
+  }
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+ 
+  .hero {
+    background: #e0f2f1;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #004d40;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 1rem 0;
+  }
+  .hero .cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    background-color: #00796b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: linear 1s ease-in-out;
+  }
+  
+  
+  section {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  section h2 {
+    font-size: 2rem;
+    color: #004d40;
+    margin-bottom: 1rem;
+  }
+  section p, section ul {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  .events ul {
+    list-style-type: none;
+  }
+  
+  /* Contact Section */
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact button {
+    padding: 0.75rem 1.5rem;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  /* Footer */
+  footer {
+    background: #004d40;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    text-align: center;
+  }
+  footer .social-links a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+
+  .hero .cta:hover{
+    background-color: black;
+  }
+
+  .contact button:hover{
+    background-color: #121212;
+  }
